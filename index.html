@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main-container">
+        <div class="password-generator">
+            <h1>Random Password Generator</h1>
+            
+            <div class="input-group">
+                <input type="text" id="password" placeholder="Your generated password" readonly>
+                <button onclick="copyPassword()">Copy</button>
+            </div>
+
+            <button class="generate-btn" onclick="createPassword()">Generate Password</button>
+
+            <footer>
+                <p>By: <span>Abdul Basit</span></p>
+            </footer>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

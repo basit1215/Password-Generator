@@ -1,0 +1,93 @@
+/* Set the background image for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/free-photo/matrix-hacker-background_23-2150082007.jpg');
+    background-size: cover; /* Change to cover for better fitting */
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    font-size: 25px;
+    text-shadow: 2px 1px #28a745e0;
+}
+
+/* Styling for main container */
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+   
+}
+
+.password-generator {
+    padding: 20px 20px 8px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    -webkit-box-shadow: 0px 0px 134px 28px rgba(40,167,69,0.88);
+    -moz-box-shadow: 0px 0px 134px 28px rgba(40,167,69,0.88);
+    box-shadow: 0px 0px 134px 28px #28a745e0;
+    border: 2px solid #18da45;
+}
+
+/* Input and button styling */
+.input-group {
+    display: flex;
+    margin: 15px 0;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    border: none; opacity: 0.85;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+button:hover {
+   opacity: 1;
+}
+
+.generate-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.generate-btn:hover {
+    background-color: #218838;
+}
+
+footer p {
+    font-size: 16px;
+    color: #000000;
+    margin-top: 30px;
+    font-weight: 500;
+    
+}
+
+span{
+    text-shadow: 1px 0px #28a745e0;
+}
